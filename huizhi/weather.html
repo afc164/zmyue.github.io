@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5-天气预报</title>
+    <script src="frameworks/jquery-2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="frameworks/bootstrap/css/bootstrap.min.css">
+    <script src="frameworks/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header class="header_out" style="width: 100%">
+    <ul class="container z_nav">
+        <li class="logo">
+            <a href="">
+                <img src="resources/images/logo.png" alt="智汇网">
+            </a>
+        </li>
+        <li class="link">
+            <button class="btn btn-link" >
+                课程中心
+            </button>
+        </li>
+        <li class="link">
+            <button class="btn btn-link">
+                互动图书
+            </button>
+        </li>
+        <li class="link">
+            <button class="btn btn-link">
+                API手册
+            </button>
+        </li>
+        <li class="link">
+            <button class="btn btn-link">
+                讨论交流
+            </button>
+        </li>
+        <li class="link">
+            <button class="btn btn-link">
+                会员服务
+            </button>
+        </li>
+        <li class="link">
+            <button class="btn btn-link">
+                商务合作
+            </button>
+        </li>
+        <li class="login">
+            <button class="btn btn-link">
+                <i class="glyphicon glyphicon-pencil"></i>
+                注册
+            </button>
+        </li>
+        <li class="login">
+            <button class="btn btn-link">
+                <i class="glyphicon glyphicon-log-in"></i>
+                登录
+            </button>
+        </li>
+    </ul>
+</header>
+    <section>
+        <article class="info">
+            <div class="container">
+            <div class="img_box">
+                <img src="resources/logo/4-course_03.png" alt="">
+                <div class="biankuang biankuang_1"></div>
+                <div class="biankuang biankuang_2"></div>
+                <div class="biankuang biankuang_3"></div>
+                <div class="biankuang biankuang_4"></div>
+            </div>
+            <div class="introduceBox2">
+                <div class="introduceBox2_up">
+                    <h3>HTML5 天气预报</h3>
+                    <p>一个HTML5/jQuery/Yahoo API的开发教程，将介绍如何使用HTML5的Geolocation，jQuery和YahooAPI来开发一个天气预报web应用。</p>
+                </div>
+                <div class="introduceBox2_down">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default one">
+                            <span class="glyphicon glyphicon-user"></span> 学习</button>
+                        <button type="button" class="btn btn-default">4982</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default two">
+                            <span class="glyphicon glyphicon-thumbs-up"></span> 推荐</button>
+                        <button type="button" class="btn btn-default">14</button>
+                    </div>
+
+                        <ul>
+                            <li><a href="#"><img src="resources/images/course_inco1.png" alt=""></a></li>
+                            <li><a href="#"><img src="resources/images/course_inco2.png" alt=""></a></li>
+                            <li><a href="#"><img src="resources/images/course_inco5.png" alt=""></a></li>
+                            <li><a href="#"><img src="resources/images/course_inco4.png" alt=""></a></li>
+                            <li><a href="#"><img src="resources/images/course_inco3.png" alt=""></a></li>
+                        </ul>
+
+                </div>
+            </div>
+            <div class="introduceBox3">
+                <div class="introduceBox3_up">
+                    <img src="resources/images/543c98ba0dee9949081fd8e0.jpg" alt="">
+                    <div>
+                        <p>木头人</p>
+                        <button type="button" class="btn btn-default guanzhu">
+                            <span class="glyphicon glyphicon-heart"></span> 关注</button>
+
+                        <button type="button" class="btn btn-default sixin">
+                            <span class="glyphicon glyphicon-envelope"></span> 私信</button>
+
+                    </div>
+
+                </div>
+                <span>有关于课程的问题，可以q我呀！...... </span>
+            </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <div class="container">
+        <div class="course_content">
+            <div class="content_center">
+
+                <div class="cc_left">
+                    <div class="cc_left_top">
+                        <span>课程目录</span>
+                        <span>课程评论</span>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">需求与设计</div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item ">1. 功能介绍</a>
+                                <a href="#" class="list-group-item">2. 技术要点</a>
+                                <a href="#" class="list-group-item">3. 页面设计</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="panel-heading"> 通过具体城市，获取此城市的标识 </div>
+                    <div class="panel-heading"> 调用yahoo的Weather API来取得天气 </div>
+                </div>
+
+                <div class="cc_right">
+                    <div class="cc_right_box1">
+                        <span class="glyphicon glyphicon-heart"></span> 推荐课程
+                    </div>
+                    <div class="cc_right_box2">
+                        <div class="ccRBox_left">
+                            <img src="resources/images/cc01.png" alt="">
+                            <span>Less</span>
+                        </div>
+                        <span>
+                           阅读与实践同步， 事半功倍的学习，还怕自己学不会吗？
+                        </span>
+                    </div>
+                    <div class="slice"></div>
+                    <div class="cc_right_box2">
+                        <div class="ccRBox_left">
+                            <img src="resources/images/cc02.png" alt="">
+                            <span>ECMAScript6</span>
+                        </div>
+                        <span>
+                           阅读与实践同步， 事半功倍的学习，还怕自己学不会吗？
+                        </span>
+                    </div>
+                    <div class="slice"></div>
+                    <div class="cc_right_box2">
+                        <div class="ccRBox_left">
+                            <img src="resources/images/cc3.jpg" alt="">
+                            <span>Bootstrop</span>
+                        </div>
+                        <span>
+                           阅读与实践同步， 事半功倍的学习，还怕自己学不会吗？
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer_center">
+                <div class="footer_nav">
+                    <div class="nav_outter">
+                        <div class="nav_inner1">
+                            <img src="" alt="">
+                            <span class="introduce">
+                                    汇智网是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+                                </span>
+                            <nav>
+                                <div class="link_iocos">
+                                    <a href="#"><img src="" alt=""></a>
+                                    <a href="#"><img src="" alt=""></a>
+                                    <a href="#"><img src="" alt=""></a>
+                                    <a href="#"><img src="" alt=""></a>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="nav_inner2">
+                            <nav>
+                                <dl>
+                                    <dt>友情链接</dt>
+                                    <dd class="one_dd"><a href="#">Node.js 中文社区</a></dd>
+                                    <dd><a href="#">phonegap中文网</a></dd>
+                                    <dd><a href="#">布布扣</a></dd>
+                                    <dd><a href="#">Ionic中文社区</a></dd>
+                                    <dd><a href="#">前端社区网</a></dd>
+                                    <dd><a href="#">更多>>></a></dd>
+                                </dl>
+                            </nav>
+                        </div>
+                        <div class="nav_inner3">
+                            <nav>
+                                <dl>
+                                    <dt>服务与支持</dt>
+                                    <dd class="one_dd"><a href="#"><i class="glyphicon glyphicon-comment"></i> 联系我们</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-heart"></i> 关注微博</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-user"></i> 学习交流</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-book"></i> 课程卡片</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-info-sign"></i> 关于我们</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-file"></i> 语料库集</a></dd>
+                                    <dd><a href="#"><i class="glyphicon glyphicon-file"></i> 技术博客</a></dd>
+                                </dl>
+                            </nav>
+                        </div>
+
+                        <div class="nav_inner4">
+                            <dl>
+                                <dt>微信订阅号</dt>
+                                <dd><img src="" alt=""></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copyright">
+                    <span class="copyright">© Hubwiz.com 京ICP备13002042号-2</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
